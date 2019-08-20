@@ -1,0 +1,6 @@
+#Tue, 20 Aug 2019 08:47:32 +0500
+
+info.app.version=0.1
+info.app.name=PracticeExercise
+grails.env=development
+info.app.grailsVersion=3.2.4
