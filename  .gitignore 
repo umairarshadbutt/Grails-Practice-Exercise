@@ -32,5 +32,3 @@
 
 # "temporary" build files
 /target
-
-# End of https://www.gitignore.io/api/grails
