@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="practiceexercise.APIAuthSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-09-02T09:17:29" hostname="jfreaks" time="11.556">
+  <properties/>
+  <testcase name="test something" classname="practiceexercise.APIAuthSpec" time="11.556">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at practiceexercise.APIAuthSpec.$tt__$spock_feature_0_0(APIAuthSpec.groovy:19)
+	at practiceexercise.APIAuthSpec.test something_closure3(APIAuthSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:418)
+	at groovy.lang.Closure.call(Closure.java:434)
+	at grails.gorm.transactions.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:68)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.gorm.transactions.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:65)
+	at practiceexercise.APIAuthSpec.test something(APIAuthSpec.groovy)
+</failure>
+  </testcase>
+  <system-out><![CDATA[14:17:28,191 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.groovy] at [file:/home/azaidi/PracticeExercise/build/resources/integrationTest/logback.groovy]
+14:17:28,192 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.groovy] occurs multiple times on the classpath.
+14:17:28,192 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.groovy] occurs at [file:/home/azaidi/PracticeExercise/build/resources/main/logback.groovy]
+14:17:28,192 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.groovy] occurs at [file:/home/azaidi/PracticeExercise/build/resources/integrationTest/logback.groovy]
+14:17:29,004 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@5a703097 - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+14:17:29,012 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@5a703097 - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+14:17:29,019 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@5a703097 - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:17:29,022 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@5a703097 - Naming appender as [STDOUT]
+14:17:29,153 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@5a703097 - Setting level of logger [ROOT] to ERROR
+14:17:29,160 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@5a703097 - Attaching appender named [STDOUT] to Logger[ROOT]
+
+
+Configuring Spring Security Core ...
+... finished configuring Spring Security Core
+
+
+Configuring Spring Security REST 2.0.0.M2...
+... finished configuring Spring Security REST
+
+Grails application running at http://localhost:33097 in environment: test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

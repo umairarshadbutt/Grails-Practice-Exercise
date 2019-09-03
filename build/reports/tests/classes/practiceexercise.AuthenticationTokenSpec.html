@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class practiceexercise.AuthenticationTokenSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class practiceexercise.AuthenticationTokenSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/practiceexercise.html">practiceexercise</a> &gt; AuthenticationTokenSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">4</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.039s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="login with admin@gmail.com"></a>
+<h3 class="failures">login with admin@gmail.com</h3>
+<span class="code">
+<pre>groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</pre>
+</span>
+<span class="code">
+<pre>java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="login with author@gmail.com"></a>
+<h3 class="failures">login with author@gmail.com</h3>
+<span class="code">
+<pre>groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</pre>
+</span>
+<span class="code">
+<pre>java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="login with bad creds"></a>
+<h3 class="failures">login with bad creds</h3>
+<span class="code">
+<pre>groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</pre>
+</span>
+<span class="code">
+<pre>java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="test something"></a>
+<h3 class="failures">test something</h3>
+<span class="code">
+<pre>groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</pre>
+</span>
+<span class="code">
+<pre>java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">login with admin@gmail.com</td>
+<td>0.002s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">login with author@gmail.com</td>
+<td>0.002s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">login with bad creds</td>
+<td>0.034s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">test something</td>
+<td>0.001s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.13</a> at Sep 2, 2019 3:01:18 PM</p>
+</div>
+</div>
+</body>
+</html>

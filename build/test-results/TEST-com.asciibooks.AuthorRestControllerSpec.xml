@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.asciibooks.AuthorRestControllerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-02T10:01:16" hostname="jfreaks" time="0.081">
+  <properties/>
+  <testcase name="test something" classname="com.asciibooks.AuthorRestControllerSpec" time="0.081"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

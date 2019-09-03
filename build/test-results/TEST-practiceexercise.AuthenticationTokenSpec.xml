@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="practiceexercise.AuthenticationTokenSpec" tests="4" skipped="0" failures="4" errors="0" timestamp="2019-09-02T10:01:18" hostname="jfreaks" time="0.054">
+  <properties/>
+  <testcase name="login with bad creds" classname="practiceexercise.AuthenticationTokenSpec" time="0.034">
+    <failure message="groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</failure>
+    <failure message="java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</failure>
+  </testcase>
+  <testcase name="login with admin@gmail.com" classname="practiceexercise.AuthenticationTokenSpec" time="0.002">
+    <failure message="groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</failure>
+    <failure message="java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</failure>
+  </testcase>
+  <testcase name="login with author@gmail.com" classname="practiceexercise.AuthenticationTokenSpec" time="0.002">
+    <failure message="groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</failure>
+    <failure message="java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</failure>
+  </testcase>
+  <testcase name="test something" classname="practiceexercise.AuthenticationTokenSpec" time="0.001">
+    <failure message="groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: serverPort for class: practiceexercise.AuthenticationTokenSpec
+	at practiceexercise.AuthenticationTokenSpec.setup(AuthenticationTokenSpec.groovy:14)
+</failure>
+    <failure message="java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Either class [com.asciibooks.UserRole] is not a domain class or GORM has not been initialized correctly or has already been shutdown. Ensure GORM is loaded and configured correctly before calling any methods on a GORM entity.
+	at org.grails.datastore.gorm.GormEnhancer.stateException(GormEnhancer.groovy:469)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:300)
+	at org.grails.datastore.gorm.GormEnhancer.findStaticApi(GormEnhancer.groovy:296)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.currentGormStaticApi(GormEntity.groovy:1368)
+	at org.grails.datastore.gorm.GormEntity$Trait$Helper.executeUpdate(GormEntity.groovy:1122)
+	at practiceexercise.AuthenticationTokenSpec.cleanup(AuthenticationTokenSpec.groovy:45)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
