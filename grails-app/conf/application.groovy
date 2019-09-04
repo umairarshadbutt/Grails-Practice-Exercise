@@ -8,6 +8,7 @@ grails.plugin.springsecurity.userLookup.usernamePropertyName = 'email'
 grails.plugin.springsecurity.userLookup.usernameIgnoreCase = true
 grails.plugin.springsecurity.rest.login.active=true
 grails.plugin.springsecurity.rest.login.usernamePropertyName = 'email'
+grails.plugin.springsecurity.rest.login.passwordPropertyName='password'
 grails.plugin.springsecurity.rest.login.useJsonCredentials=true
 grails.plugin.springsecurity.rest.login.endpointUrl='/api/login'
 grails.plugin.springsecurity.rest.logout.endpointUrl='/api/logout'
@@ -20,6 +21,7 @@ grails.plugin.springsecurity.rest.login.failureStatusCode=401
 
 grails.plugin.springsecurity.rest.token.storage.gorm.tokenDomainClassName='practiceexercise.AuthenticationToken'
 grails.plugin.springsecurity.rest.token.storage.gorm.tokenValuePropertyName='tokenValue'
+grails.plugin.springsecurity.rest.token.storage.gorm.usernamePropertyName='email'
 
 grails.plugin.springsecurity.rest.token.generation.useSecureRandom=true
 grails.plugin.springsecurity.rest.token.generation.useUUID=false
@@ -27,7 +29,7 @@ grails.plugin.springsecurity.rest.token.generation.useUUID=false
 
 grails.plugin.springsecurity.rest.token.rendering.usernamePropertyName = 'login'
 grails.plugin.springsecurity.rest.token.rendering.authoritiesPropertyName = 'permissions'
-
+grails.plugin.springsecurity.rest.token.rendering.tokenPropertyName ='access_token'
 grails.plugin.springsecurity.securityConfigType = "Annotation"
 
 grails.plugin.springsecurity.onRestTokenCreationEvent = { e, appCtx ->
@@ -36,16 +38,17 @@ grails.plugin.springsecurity.onRestTokenCreationEvent = { e, appCtx ->
 
 
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-	[pattern: '/',               access: ['permitAll']],
-	[pattern: '/error',          access: ['permitAll']],
-	[pattern: '/index',          access: ['permitAll']],
-	[pattern: '/index.gsp',      access: ['permitAll']],
-	[pattern: '/shutdown',       access: ['permitAll']],
-	[pattern: '/assets/**',      access: ['permitAll']],
-	[pattern: '/**/js/**',       access: ['permitAll']],
-	[pattern: '/**/css/**',      access: ['permitAll']],
-	[pattern: '/**/images/**',   access: ['permitAll']],
-	[pattern: '/**/favicon.ico', access: ['permitAll']]
+		[pattern: '/',               access: ['permitAll']],
+		[pattern: '/error',          access: ['permitAll']],
+		[pattern: '/index',          access: ['permitAll']],
+		[pattern: '/index.gsp',      access: ['permitAll']],
+		[pattern: '/shutdown',       access: ['permitAll']],
+		[pattern: '/assets/**',      access: ['permitAll']],
+		[pattern: '/**/js/**',       access: ['permitAll']],
+		[pattern: '/**/css/**',      access: ['permitAll']],
+		[pattern: '/**/images/**',   access: ['permitAll']],
+		[pattern: '/**/favicon.ico', access: ['permitAll']],
+		[pattern: '/dbconsole/**',   access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [

@@ -8,11 +8,17 @@ class UrlMappings {
 
     // @Secured(value=["hasRole('adminRole')"], httpMethod='POST')
     static mappings = {
-        "/$controller/$action?/$id?(.$format)?"{
-            constraints {
-                // apply constraints here
-            }
-        }
+        "/api/authorRest"(resources: "authorRest")
+//        group "/api", {
+//
+//                "/books"(resources:"book") {
+//                    "/author"(resources:"author", includes: [ACTION_SHOW])
+//                }
+//                "/authors"(resources:"author") {
+//                    "/books"(resources:"book", includes: [ACTION_SHOW, ACTION_INDEX])
+//                }
+//
+//        }
 
         "/"(view:"/index")
         "500"(view:'/error')
